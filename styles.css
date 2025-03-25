@@ -1,0 +1,99 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #003366;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.hero button {
+    padding: 10px 20px;
+    background: #ff6600;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Courses */
+.courses {
+    padding: 20px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonials {
+    background: #003366;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Blog Preview */
+.blog-preview {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
